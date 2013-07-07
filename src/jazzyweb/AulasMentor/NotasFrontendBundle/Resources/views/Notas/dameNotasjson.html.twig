@@ -1,0 +1,9 @@
+{"notas": [
+     {% for nota in notas %}
+     {
+       "id": {nota.id},
+       "titulo": "{nota.titulo}",
+       "texto": "{nota.texto}"
+     },{% endfor %}
+  ]
+}
